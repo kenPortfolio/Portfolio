@@ -1,4 +1,3 @@
 # Ken's Portfolio
 
-There's the . 
-[old portfolio page](https://creativeken.netlify.app)
+This is the .md on the portfolio page. Go instead to the .md in the Blog repo.
