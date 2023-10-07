@@ -4,6 +4,10 @@ body {
     margin-left: 40px;
 }
 
+header {
+    background-color: aqua;
+    padding: auto;
+}
 main {
     margin-left: 40px;
 }
