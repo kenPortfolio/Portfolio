@@ -59,7 +59,8 @@ td p {
     font-size: 20px;
 }
 
-#resume {
+.resume {
     background-color: silver;
+    color:#0647eb;
     
 }
