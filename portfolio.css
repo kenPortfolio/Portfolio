@@ -13,10 +13,15 @@ header {
 }
 
 header .resume {
-    background-color:;
+    /* background-color:ffffff; */
     padding: auto;
+    
 }
 
+#headerNav {
+    /* background-color: #800080; */
+    /* display: inline-block; */
+}
 main {
     margin-left: 40px;
     width: 70%;
