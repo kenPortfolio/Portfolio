@@ -9,9 +9,10 @@
 </head>
 
 <body>
+
   <header>
     <h1>Ken's Portfolio</h1>
-    <ul id="headerNav">
+    <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li><a href="technicalWriting.html">Technical Writing</a></li>
@@ -20,11 +21,19 @@
       <li><a href="#">Git Repos</a></li>
       <li><a href="#">Education</a></li>
     </ul>
-  </header>
+    </header>
 
-    <main>
+
+    <aside>
+      <iframe
+      id="inlineFrame1"
+      src="https://kenportfolio.github.io/wiki/">
+     </iframe>
+    </aside>
+
+    <article>
       <p>Here are some examples of my work.</p>
-    <table>
+      <table>
       <tr>
         <th>Occasion</th>
         <th>Company</th>
@@ -57,16 +66,15 @@
       </tr>
     </table>
 
-  </aside>
-  </main>
-  <aside><iframe
-    id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="200"
-    src="https://kenportfolio.github.io/Blog/"
-  >
-  </iframe>
+    </article>
+    
+    <aside>
+      <iframe id="inlineFrame2"
+      title="Blog"
+      src="https://kenportfolio.github.io/Blog/">
+      </iframe>
+    </aside>
+
 </body>
 
 </html>
