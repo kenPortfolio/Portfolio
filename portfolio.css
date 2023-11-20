@@ -2,73 +2,74 @@ body {
     background-color: #ffffff;
 /*  margin-top: 60px;
     margin-left: 40px; */
+    width: 95%;
 }
 
 header {
     background-color:#d3d3d3;
-    padding: auto;
-    width:100%;
-    min-width: 1800px;
+    padding: 20px 0px 0px 20px;
+    width: 90%;
 }
-    
+
+header ul {
+    margin-left: 300px;
+}
+
+header li {
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+footer li {
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* padding-left: 200px; */
+}
+
+footer {
+    background-color:#d3d3d3;
+    padding: auto;
+    width: 90%;
+}
+
 header .resume {
     /* background-color:ffffff; */
     padding: auto;    
 }
 
 aside {
+    /* margin-top: 20px; */
     padding: 10px;
     background-color: aquamarine;
     display: inline-block;
+    width: 25%;
 }
-
-iframe  {
-    width: 20px;
-    height: 800px;
-    }
       
 #inlineFrame1 {
-    width: auto;
-    margin-bottom: 0px;
-    height: 800px;
+    height: 750px;
+    width: 100%;
     display: inline-block;
-    /* display:inline-block */
-    /* position: absolute; */
-    /* left: 20px; */
 }
     
-#inlineFrame2 {
+/* #inlineFrame2 {
     width: auto;
     height: 800px;
     display: inline-block;
-    /* position: absolute; */
-    /* right: 20px; */
-}
+    position: absolute;
+    left: 20px;
+} */
 
 article {
 background-color: chartreuse;
 display: inline-block;
 vertical-align:top;
-/* height: 800px; */
-height: 100%;
+padding-left: 100px;
+padding-top: 50px;
+height: 720px;
+width: 55%;
 }
-
-/* main {
-    background-color: burlywood;
-    margin-left: 500px;
-    margin-right: 10px;
-    padding: 20px;
-    width: auto;
-    max-width: 800px;
-    display: inline-block;
-    height: 800px;
-} */
-
-/* section {
-    margin-left: 20px;
-    padding: 60px;
-    display: inline-block; 
-} */
 
 table {
     border-collapse: collapse;
@@ -77,10 +78,6 @@ table {
     margin: 50px;
     display: inline-block;
 }
-
-/* aside {
-margin:auto
-} */
 
 .tableStyle {
     background-color: #ffffff;
@@ -126,5 +123,4 @@ p {
     margin-left: 20px;
     font-size: 20px;
 }
-
 
