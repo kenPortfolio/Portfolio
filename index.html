@@ -11,28 +11,55 @@
 <body>
 
   <header>
-    <h1>Ken's Portfolio</h1>
-    <ul>
-      <!-- <li><a href="index.html">Home</a></li> -->
-
+    <div id="homeHead"><a href="index.html"><h1>Ken's Portfolio<br>Home</h1></a>
+    </div>
+    <ul id="headerNav">
       <li><a href="technicalWriting.html">Technical Writing</a></li>
+      <li><a href="https://kenportfolio.github.io/Education/" target="_blank">Education Blog</a></li> 
+      <li><a href="resume.html">Resume & Work History</a></li>
       <li><a href="otherProjects.html">Other Projects</a></li>
-      <li><a href="resume.html">Resume/Work History</a></li>
-      <li><a href="#">Education</a></li> 
       <li><a href="#">LinkedIn</a></li> 
       </ul>
     </header>
-
-    <aside>
-      <iframe
-      id="inlineFrame1"
-      src="https://kenportfolio.github.io/Education/">
-     </iframe>
-    </aside>
-
     <article>
       <h1>Technical Writing Examples</h1>
+
       <table>
+        <tr>
+          <th>Document Title</th>
+          <th>Company</th>
+          <th>Information</th>
+        </tr>
+        <tr>
+          <td><a href="Tonal - Virtual Video Sessions Workflow.pdf" target="_blank">Video Sessions Workflow</a>
+          </td>
+          <td>Tonal</td>
+          <td style="width:20%">
+            <p>A support team workflow for setting up virtual video
+              sessions to provide support to clients.</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="width:20%"><a href="Tonal - Motor Control Board (MCB) Error Codes.pdf"
+              target="_blank">Control Board (MCB) Error Codes</a>
+          </td>
+          <td style="width:20%">Tonal</td>
+          <td style="width:20%">
+            <p>A reference for technical support team members assisting clients with equipment issues that include pop-up
+              modals with error codes.</p>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="Imagine - Duplicate Account Management in Salesforce.pdf" target="_blank">Duplicate Account
+              Management in Salesforce</a></td>
+          <td>Imagine</td>
+          <td style="width:30%">
+            <p>An internal document describing the procedure for removing duplicate accounts from Salesforce.</p>
+          </td>
+        </tr>
+      </table>
+
+     <!--  <table>
       <tr>
         <th>Occasion</th>
         <th>Company</th>
@@ -64,15 +91,24 @@
         </td>
       </tr>
     </table>
-
+ -->
     </article>
 
+    
+    <aside>
+      <iframe
+      id="inlineFrame1"
+      src="https://kenportfolio.github.io/Education/">
+     </iframe>
+    </aside>
+
+    
     <footer>
-      <h2>Additional Information</h2>
+     <!--  <h2>Additional Information</h2>
       <ul><li><a href="#">Resume</a></li>
       <li><a href="#">LinkedIn</a></li> 
     </ul>
-
+ -->
       <sitemap id="sitemap">
         <h2>Site Map</h2>
         <ul>
