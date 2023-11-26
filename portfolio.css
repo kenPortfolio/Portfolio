@@ -6,40 +6,42 @@ body {
 
 header {
     background-color:#d3d3d3;
-    padding: 1px 1px 1px 1px;
+    padding: 0px 1px 1px 1px;
   }
 
 #headHome {
-padding-bottom: auto;
-padding-left: 20px;
+    margin-left: 30px;
 }
 
+#headHome h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: blueviolet;
+  }
+
+#headHome a {
+    color: blueviolet;
+    }
+
 #headerNav {
-    max-width: 800px;
-    margin-left: 180px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin-top: 120px;
+    margin:auto;
+    background-color: pink;
+    
 }
 
 #headerNav a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    }
+    font-size: 20px;
+    font-family: monospace;
 
-   #headerNav a:hover {
+    }
+    
+#headerNav a:hover {
         color: yellow;
       }
 
-header ul {
-    max-height: 50px;
-}
+#headerNav li {
+    display:inline;
+    padding-right: 160px;
 
-header li {
-    display: inline;
-    padding-right: 20px;
-    margin-left: 0px;
 }
 
 .litUp {
